@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+.header{
+    background-image: url(../img/background-code.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    position: fixed;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px;
+}
+/* Barra de navegación scroll */
+.nav.active{
+    background:#fff;
+    padding: 10px;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+.nav.active .logo img{
+    content: url(../img/code-alt-black.png);
+}
+.nav.active .logo p{
+    color: #000;
+}
+
+.nav.active .menu li a{
+    color: #000;
+}
+.nav.active .logo:hover{
+    background-color: #26282B;
+}
+.nav.active .logo:hover p{
+    color: #fff;
+}
+.nav.active .logo:hover img{
+    content: url(../img/code-alt.png);
+}
+.nav.active .menu li a:hover{
+    padding: 5px 10px;
+    background-color: #26282B;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+.logo p{
+    color:#fff;
+    margin: 10px;
+    font-weight: bold;
+}
+.logo:hover{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0px 6px; 
+}
+.logo:hover p{
+    color: #000;
+}
+.logo:hover img{
+    content: url(../img/code-alt-black.png);
+}
+
+/* Menu superior */
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease;
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+}
+.principal{
+    display: flex;
+    align-items: center;
+}
+.principal-photo{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 100px 200px;
+}
+.principal-photo img{
+    height: 100%;
+    border-radius: 30px;
+}
+.principal-name{
+    color: #fff;
+}
+.principal-name h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Arial';
+}
+.principal-name p{
+    font-size: 1.2rem;
+}
+
+/*Principal*/
+/* .principal{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #353941;
+    display: flex;
+    height: 500px;
+    padding: 50px;
+}
+
+.photo{
+    height: 100px;
+    height: 100px;
+}
+
+.photo img{
+    height: 100%;
+    border-radius: 10%;
+} */
+/*Profile*/
+/* .profile{
+    height: 500px;
+    background-color: aqua;
+} */
