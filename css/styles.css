@@ -68,11 +68,22 @@ body {
 .logo:hover img {
   content: url(../img/code-alt-black.png);
 }
+.menu-mobile a img{
+  content: url("../img/menu-black.svg");
+}
 
 
 /* Menu mobile */
 .menu-mobile{
-  /* display:none; */
+  display:none;
+}
+.menu-mobile a{
+  display: grid;
+  place-items: center;
+}
+.menu-mobile a img{
+  width: 32px;
+  height: 32px;
 }
 
 
@@ -164,10 +175,18 @@ body {
 
 /* Responsive */
 @media (max-width: 640px) {
+
   .menu{
     display:none;
   }
   .menu-mobile{
-    /* display: block; */
+    display: flex;
+    margin-right: 12px;
+  }
+  .menu-mobile a img{
+    content: url("../img/menu-white.svg");
+  }
+  .nav.active .menu-mobile a img{
+    content: url("../img/menu-black.svg");
   }
 }
