@@ -25,6 +25,7 @@ body{
     padding: 25px;
 }
 
+
 /* Barra de navegación scroll */
 .nav.active{
     position: fixed;
@@ -129,7 +130,7 @@ body{
     color: #fff;
 }
 .principal-name h1{
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: bold;
     font-family: 'Arial';
 }
