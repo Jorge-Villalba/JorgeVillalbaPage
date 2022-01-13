@@ -106,7 +106,7 @@ body {
   width: 100%;
 }
 .nav.active .logo img {
-  content: url(../img/code-alt-black.png);
+  content: url(../img/code-alt-black.svg);
 }
 .nav.active .logo p {
   color: #000;
