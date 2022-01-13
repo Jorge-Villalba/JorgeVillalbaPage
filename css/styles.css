@@ -196,8 +196,8 @@ body {
     color: var(--black);
   }
   .menu .close-menu {
-    display: flex;
-    justify-content: right;
+    display: block;
+    text-align: right;
     margin: 0;
     padding-right: 12px;
     transition: all 0.5s ease;
