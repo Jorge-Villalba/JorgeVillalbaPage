@@ -63,7 +63,7 @@ body {
   color: #000;
 }
 .logo:hover img {
-  content: url(../img/code-alt-black.png);
+  content: url(../img/code-alt-black.svg);
 }
 .menu-mobile a img {
   content: url("../img/menu-black.svg");
@@ -121,7 +121,7 @@ body {
   color: #fff;
 }
 .nav.active .logo:hover img {
-  content: url(../img/code-alt.png);
+  content: url(../img/code-alt.svg);
 }
 .nav.active .menu li a:hover {
   padding: 5px 10px;
