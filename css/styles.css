@@ -168,25 +168,29 @@ body {
     height: 100vh;
   }
 
-  /* Menu */
+  /* Menu design*/
  
   .menu{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:start;
     position: absolute;
     top: 0;
     right: 0;
-    width: 160px;
+    width: 0;
     height: auto;
     padding: 12px;
     background-color: var(--white);
-    transition: all 0.8s ease;
-    transform: translateX(+100%);
+    transition: all 1s ease;
+    opacity: 0;
+    overflow: hidden;
   }
+  /* Show the menu */
+  /* Pasa de tener width:0 a width:160px */
   .menu.active {
-    /* Show the menu */
-    transform: translateX(0);
+    width: 160px;
+    opacity: 1;
+    transition: all 1s ease;
   }
   .menu li a {
     color: var(--black);
