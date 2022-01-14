@@ -16,10 +16,11 @@
 
 <body>
     <header class="header">
+        <a name="principal"></a>
 
         <nav class="nav">
             <div class="logo">
-                <a href="" class="logo-link">
+                <a href="#principal" class="logo-link">
                     <img src="./img/code-alt.svg" alt="code-alt">
                     <p>JORGE VILLALBA</p>
                 </a>
@@ -35,42 +36,62 @@
             </ul>
 
             <div class="menu-mobile">
-                    <img src="./img/menu-white.svg" alt="menu mobile">
+                <img src="./img/menu-white.svg" alt="menu mobile">
             </div>
 
         </nav>
 
         <div class="principal">
+
             <div class="principal-photo">
                 <img src="./img/profile.svg" alt="profile-photo">
             </div>
+
             <div class="principal-info">
                 <h1>Hola, yo soy Jorge Villalba</h1>
                 <p>Frontend Developer</p>
-
             </div>
+
         </div>
-        
+
+        <div class="more-about">
+            <a href="#profile">
+                <img src="./img/arrow-down.svg" alt="more about">
+                <p>Más sobre mi</p>
+            </a>
+        </div>
+
     </header>
-    <section>
-        <div class="scrol" style="height: 5000px; background-color: azure;">
-            <p style="font-size: 1rem">Hola</p>
-        </div>
-        <article class="profile">
+    <main>
+        <section class="profile">
             <a name="profile"></a>
-        </article>
-        <article class="proyects">
+            <div class="profile-content">
+                <h2>Acerca de mi</h2>
+                <p>
+                    Desarrollador de software con conocimientos en tecnologías y lenguajes como PHP, JavaScript, Python,
+                    MERN y manejo de metodología Scrum.
+                </p>
+                <p>
+                    Una persona seria, honrada, respetuosa con la disposición de aprender y emprender nuevos retos que me
+                    fortalezcan y me llenen de conocimientos. Con capacidades de escucha activa, trabajo en equipo, manejo
+                    de emociones, manejo de problemas y conflictos.
+                </p>
+            </div>
+            <img src="./img/programming-image.svg" alt="programming image">
+        </section>
+        <section class="proyects">
             <a name="proyects"></a>
-        </article>
-        <article class="skills">
+        </section>
+        <section class="skills">
             <a name="skills"></a>
-        </article>
-        <article class="contact">
+        </section>
+        <section class="contact">
             <a name="contact"></a>
-        </article>
-    </section>
+        </section>
+    </main>
+
     <footer></footer>
-    
+
     <!-- Script que controla barra al hacer scroll -->
     <script src="./js/menu.js"></script>
 </body>
